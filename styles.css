@@ -1,0 +1,80 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  margin: 5%;
+  padding: 5%;
+}
+.background {
+  background-image: linear-gradient(
+    to bottom,
+    #bbbbbb,
+    #dadada,
+    #ebebeb,
+    #ebebeb,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff
+  );
+  z-index: -10;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* border: 1px*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+h1 {
+  color: rgb(231, 6, 178);
+  text-shadow: -2px -1px 1.5px rgba(51, 0, 255, 0.6);
+  mix-blend-mode: multiply;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 100%),
+    rgba(255, 0, 255, 30%),
+    rgba(255, 0, 255, 40%),
+    rgba(255, 0, 255, 50%),
+    rgba(255, 0, 255, 40%),
+    rgba(255, 0, 255, 30%),
+    rgba(255, 255, 255, 100%)
+  );
+  padding: 5%;
+  border: solid 0.09em rgb(238, 207, 232);
+  border-radius: 12em 12em 2em 2em;
+}
+div {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.nested-div {
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  border: solid 0.3em rgb(10, 214, 221);
+  border-radius: 2em 2em 4.5em 4.5em;
+  padding: 5%;
+  background-color: blanchedalmond;
+}
+iframe {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  border: solid 0.3em rgba(237, 0, 229, 0.299);
+  border-radius: 1em 1em 5em 5em;
+  mix-blend-mode: darken;
+}
+
+p {
+  display: block;
+  margin: auto;
+}
+
+.thankyou {
+  color: #0b9595;
+  font-weight: 600;
+}
